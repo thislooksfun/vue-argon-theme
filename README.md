@@ -8,6 +8,22 @@ The [Vue Argon Design System][system] is licensed under [MIT][argon-license],
 and [so is this package][theme-license].
 
 
+## Usage:
+
+```javascript
+import Argon from 'vue-argon-theme'
+Vue.use(Argon);
+```
+
+Then you can just use the components anywhere in Vue!
+
+example.vue:
+```html
+<template>
+  <base-button type="danger" outline>Don't click me!</base-button>
+</template>
+```
+
 ## Useful links:
 * [Components][argon-components]
 
